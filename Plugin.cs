@@ -60,7 +60,7 @@ namespace Edsparr.Houseplugin
             Configuration.Save();
         }
 
-        public void FixedUpdate()
+        public void Update()
         {
             if (!Level.isLoaded) return;
             if(DateTime.Now > n.AddSeconds(1))
